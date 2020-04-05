@@ -10,6 +10,12 @@ namespace BankAccountV3
     {
         static void Main(string[] args)
         {
+            BankAccount UserBankA = new BankAccountA("Jacek", 10000, 'A');
+            Console.WriteLine(UserBankA.Description());
+            Console.WriteLine(UserBankA.Balance);
+
+
+            Console.ReadKey();
         }
     }
 }
