@@ -23,7 +23,12 @@ namespace BankAccountV3
                 return balance;
             }
         }
-             
+
+        public string Description()
+        {
+            return "Obiekt klasy BankAccountB";
+        }
+
         public BankAccountB()
         {
             this.Number = null;

@@ -43,9 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BankAccount.cs" />
+    <Compile Include="IBankAccount.cs" />
     <Compile Include="BankAccountA.cs" />
     <Compile Include="BankAccountB.cs" />
+    <Compile Include="IBankAccountOperations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

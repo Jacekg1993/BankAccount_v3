@@ -12,12 +12,7 @@ namespace BankAccountV3
         {
             get;
         }
-
         string OwnerName { get; }
-
-        void MakeDeposit(decimal amount, DateTime date, string note);
-        void MakeWithdrawal(decimal amount, DateTime date, string note);
-        string GetAccountHistory();
-        public string Description();
+        string Description();
     }
 }
