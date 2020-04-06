@@ -25,7 +25,6 @@ namespace BankAccountV3
             }
         }
 
-
         public void MakeDeposit(decimal amount, DateTime date, string note)
         {
             Transaction deposit = new Transaction(amount, date, note);

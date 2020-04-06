@@ -14,6 +14,12 @@ namespace BankAccountV3
             Console.WriteLine(UserBankA.Description());
             Console.WriteLine(UserBankA.Balance);
 
+            UserBankA.MakeDeposit(1000, DateTime.Now, "wplata");
+            UserBankA.MakeWithdrawal(3000, DateTime.Now, "wyplata");
+
+            Console.WriteLine(UserBankA.Balance);
+
+            UserBankA.GetAccountHistory();
 
             Console.ReadKey();
         }
