@@ -19,7 +19,7 @@ namespace BankAccountV3
 
             Console.WriteLine(UserBankA.Balance);
 
-            UserBankA.GetAccountHistory();
+            Console.WriteLine(UserBankA.GetAccountHistory());
 
             Console.ReadKey();
         }
