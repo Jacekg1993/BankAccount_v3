@@ -10,7 +10,7 @@ namespace BankAccountV3
     {
         static void Main(string[] args)
         {
-            BankAccount UserBankA = new BankAccountA("Jacek", 10000, 'A');
+            BankAccount UserBankA = new BankAccountA("Jacek Gos", 10000, 'A');
             Console.WriteLine(UserBankA.Description());
             Console.WriteLine(UserBankA.Balance);
 
@@ -19,7 +19,12 @@ namespace BankAccountV3
 
             Console.WriteLine(UserBankA.Balance);
 
-            UserBankA.GetAccountHistory();
+            Console.WriteLine(UserBankA.GetAccountHistory());
+
+            //BankAccountA.OwnerName testName = new BankAccount.OwnerName("Jacek Gos", 10);
+            //Console.WriteLine(testName[0]);
+
+            Console.WriteLine(UserBankA.GetName());
 
             Console.ReadKey();
         }
